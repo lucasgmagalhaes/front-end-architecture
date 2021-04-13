@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #2f558d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #2f558d;
+}
+
+.header-top {
+  padding: 10px 0px 18px 0px;
+}
+
+.header-top span {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.header-content {
+  padding-bottom: 43px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-width: 320px;
+  text-align: start;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content img {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+}
+
+.header-content-img {
+  flex-grow: 1;
+  text-align: center;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.header-content-text {
+  flex-grow: 1;
+  width: 60%;
+  max-width: 800px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 13px;
+}
+
+.header-content-text h1 {
+  margin: 0;
+}
+
+.header-content-text p {
+  font-size: 19px;
+}
+
+.app-body {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.app-container {
+  display: flex;
+  width: 50%;
+  text-align: start;
+}
+
+.blog-item {
+  display: flex;
+  padding: 17px 17px 17px 0px;
+  flex-direction: column;
+}
+
+.blog-title {
+  font-size: 34px;
+  font-weight: 700;
+  font-size: 29px;
+  color: #4c4c4c;
+}
+
+.blog-item .titulo {
+  color: #2f558d;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.blog-item .resumo {
+  font-style: italic;
+}
+
+.body-container {
+  margin-top: 30px;
+  max-width: 538px;
+  text-align: start;
+  padding: 12px;
+}
+
+.ver-tudo {
+  color: #2f558d;
+  font-weight: 600;
+  font-size: 18px;
+}
