@@ -1,0 +1,44 @@
+.header-top {
+  padding: 10px 0px 18px 0px;
+}
+
+.header-item {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.header-content {
+  padding-bottom: 43px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-width: 320px;
+  text-align: start;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content-img {
+  flex-grow: 1;
+  text-align: center;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.header-content-text {
+  flex-grow: 1;
+  width: 60%;
+  max-width: 800px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 13px;
+}
+
+.header-content-text h1 {
+  margin: 0;
+}
+
+.header-content-text p {
+  font-size: 19px;
+}
